@@ -1,0 +1,27 @@
+body {
+	background-color: rgb(55, 55, 55);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	background-color: rgb(43, 43, 43);
+}
+
+.navbar-logo {
+	width: 10%;
+	height: 10%;
+}
+
+.navbar-menu {
+	display: flex;
+	list-style: none;
+	position: absolute;
+	justify-content: center;
+}
