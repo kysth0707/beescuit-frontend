@@ -3,6 +3,9 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="./css/index-style.css">
+		<link rel="stylesheet" href="./css/navbar-style.css">
+
+		<script src="./javascript/index-animation.js"></script>
 	
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -10,13 +13,13 @@
 		<meta charset="utf-8">
 		<title>BeeScuit</title>
 	</head>
-	<body>
+	<body class="index-body">
 		<!-- Header -->
 		<div class="px-3 py-2 text-bg-dark">
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 					<a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-						<img src="./images/main.png" width="40">
+						<img src="./images/main.png" width="55">
 						<div class="navbar-title">BeeScuit</div>
 					</a>
 		
@@ -50,6 +53,52 @@
 			</div>
 		</div>
 
+		<!-- Main Content -->
+		<div class="animation-content">
+			<h1>BeeScuit</h1>
+			<h2>Bee + (Bi)scuit</h2>
+			<br><br><br>
+			<h1>비스킷처럼 간단히</h1>
+			<h1>꿀처럼 재밌게!</h1>
+		</div>
+		<div class="animation-content">
+			<div class="animation-left">예시 이미지입니다.</div>
+			<img src="images/main.png" style="position: relative; left: 30%;">
+		</div>
+		<div class="animation-content">
+			<div class="animation-left">1. 원하는 부분을 선택하세요</div>
+			<img src="images/main.png" style="position: relative; left: 30%;">
+			<div class="animation-left">2. 추천 영상을 확인해보세요</div>
+			<img src="images/main.png" style="position: relative; left: 25%;">
+			<div class="animation-left">3. 하단의 설명도 확인해보세요</div>
+			<img src="images/main.png" style="position: relative; left: 20%;">
+		</div>
+		<div class="animation-content">
+			<div class="animation-left">
+				사이트 이미지<br>
+				<h2>임시로 제작되었습니다</h2>
+			</div>
+			<img src="images/main.png" style="position: relative; left: 30%;">
+		</div>
+		<div class="animation-content animation-typing">곧 추가 예정</div>
 
+
+		<!-- Footer -->
+		<div class="container">
+			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+				<p class="col-md-4 mb-0 text-muted">© 2022 김태형, Inc</p>
+			
+				<a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+					<svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+				</a>
+
+				<ul class="nav col-md-4 justify-content-end">
+					<li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">홈</a></li>
+					<li class="nav-item"><a href="notice.html" class="nav-link px-2 text-muted">영상</a></li>
+					<li class="nav-item"><a href="sourcecode.html" class="nav-link px-2 text-muted">소스코드</a></li>
+					<li class="nav-item"><a href="credit.html" class="nav-link px-2 text-muted">출처 & 크레딧</a></li>
+				</ul>
+			</footer>
+		</div>
 	</body>
 </html>

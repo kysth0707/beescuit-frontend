@@ -8,3 +8,7 @@ with open("tab-converter-file.txt", encoding="utf-8") as f:
 
 	with open("tab-result.txt", mode="w", encoding="utf-8") as f2:
 		f2.write("\t".join(ConvertedContents))
+
+	# a : str = 1
+	# a : str = "ㅎㅇ"
+	# print(a)
