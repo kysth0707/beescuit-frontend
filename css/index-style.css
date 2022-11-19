@@ -1,11 +1,11 @@
 .index-body {
-	background-color: rgb(15, 15, 15);
+	background-color: rgb(255, 255, 255);
 }
 
 .animation-content {
 	margin-top: 300px;
 	margin-bottom: 1000px;
-	color: white;
+	color: rgb(0, 0, 0);
 	text-align: center;
 	font-size: 40px;
 

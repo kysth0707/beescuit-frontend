@@ -26,10 +26,22 @@
 	font-size: large;
 }
 
-.nav-link {
-	opacity: 1;
+.nav-link-border {
+    background-color: #222222;
+    border-radius: 2rem;
+	border-color: white;
+	border-style: inset;
+    float: right;
+    height: 2.5rem;
+    width: 7rem;
+
+	display : flex;
+	justify-content : center;
+	align-items : center;
+
 	transition: all 0.5s;
 }
-.nav-link:hover {
-	margin-top: -10px;
+
+.nav-link-border:hover{
+	background-color: #b7b7b7;
 }
